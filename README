@@ -1,0 +1,25 @@
+This README file contains information on the contents of the meta-yapps layer.
+
+Please see the corresponding sections below for details.
+
+Dependencies
+============
+
+  URI: https://github.com/smurfix/yapps
+  branch: master
+
+Patches
+=======
+
+Please submit any patches against the meta-yapps layer to the xxxx mailing list (xxxx@zzzz.org)
+and cc: the maintainer:
+
+Maintainer: Peter Den Hartog <https://github.com/pddenhar>
+
+
+Adding the meta-yapps layer to your build
+=================================================
+
+Run 'bitbake-layers add-layer meta-yapps'
+
+Don't forget to add `python3-yapps2-native` to your DEPENDS if you need the `yapps2` binary copied to `/usr/bin` in your sysroot.
